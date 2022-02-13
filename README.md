@@ -11,6 +11,9 @@ on MNIST and Asirra datasets.
 # Running
 
 conda create --name myenv
+
 conda activate myenv
+
 pip install -r requirements.txt
+
 python recognition.py --type <Classifier Type>
